@@ -66,7 +66,7 @@ centro do browser. O container é invisível. */
 .container {
     margin-right: auto; /*uma margem automática para todos os lados*/
     margin-left: auto; /**/
-    max-width: 900px; /*largura maxima*/
+    max-width: 960px; /*largura maxima*/
     padding-right: 10px; /* Espaçamento direito*/
     padding-left: 10px; /*Espaçamento esquerdo*/
     width: 100%; /*largura*/
@@ -80,6 +80,7 @@ centro do browser. O container é invisível. */
     align-items: center;
     text-align: center;
 }
+
 
 .nome-completo {
     font-size: 36px;
@@ -104,13 +105,28 @@ centro do browser. O container é invisível. */
 }
 
 
-.section-lista {
+.container-formacao {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 32px;
     flex-direction: column;
+    margin-top: 150px;
+    margin-left: 300px;
+
+    
+}
+
+.container-projetos{
+    display: flex;
+    margin-bottom: 32px;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 300px;
+
+    
 }
 .lista-item {
-    padding: 32px;  /*espaçamento dos 4 lados*/
+    padding: 60px;  /*espaçamento dos 4 lados*/
+    margin-right: auto;
 }
 
 .lista-item ul li {
@@ -131,7 +147,7 @@ centro do browser. O container é invisível. */
 
 .lista-descricao {
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 10px;
     line-height: 20px; /*Espaçamento entre as linhas*/
     color: #828282;
     font-weight: 300;
